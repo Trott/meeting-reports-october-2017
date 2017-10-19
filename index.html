@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Meeting Reports October 2017</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Node.js Interactive 2017</h2>
+					(the <i>.js</i> is silent)
+					<aside class="notes">Hi, everybody! This year, I got to attend Node.js Interactive. Or, actually, it's Node interactive, because, like it says there, the js is silent.</aside>					
+				</section>
+				<section data-background-image="img/nodejs-1024x768.png">
+					<aside class="notes">Let's start with what Node is. Node is a JavaScript runtime that uses an event-driven, non-blocking I/O model that... No, just kidding. That means nothing.</aside>
+				</section>
+				<section data-background-image="img/ucsf_library.jpg">
+					<aside class="notes">
+						<p>Let's try this. Let's talk about how we use Node at the UCSF Library. None of our big projects are implemented primarily in Node. However, almost all of them have some significant Node component. Node is very versatile.</p>
+					</aside>
+				</section>
+				<section>
+					<h2>IDL Solr Proxy</h2>
+					<aside class="notes">
+						IDL uses a Node.js proxy to protect it's search index.
+					</aside>
+				</section>
+				<section>
+					<h2>Ilios LTI calendar</h2>
+					<aside class="notes">Ilios implemented the new LTI calendar feature using Node.js.
+					</aside>
+				</section>
+				<section>
+					<h2>Library hours</h2>
+					<aside class="notes">The Library website uses a Node.js API middleware program so that we have more flexibility in displaying the hours on the website than Springshare gives us by default.
+					</aside>
+				</section>
+				<section>
+					<h2>EAD -> Calisphere</h2>
+					<aside class="notes">And, a new one: we use Node.js to pre-process XML finding aids for import into Nuxeo.
+					</aside>
+				</section>
+				<section>
+					<h2>Atwood's Law</h2>
+					<aside class="notes">There are other examples, but the thing is this: Even if you don't think you're using Node.js, you're probably using Node.js. If you use the Slack desktop app, that's a Node.js app. Jeff Atwood, a software engineer and writer, proposed Atwood's Law: Any application that can be written in JavaScript will eventually be written in JavaScript. And he was basically talking about Node.
+					</aside>
+				</section>
+				<section>
+					<h2>JIFASNIF</h2>
+					<aside class="notes">Because Node.js is a way to run JavaScript. JavaScript used to be a browser-only language. Node.js is a way to bring it pretty much anywhere else. The acronym up there means "JavaScript is fun and so Node is fun."
+					</aside>
+				</section>
+				<section>
+					<h2>D+I Keynote</h2>
+					<h5>Kim Crayton</h5>
+					<aside class="notes">
+						<p>So back to the event: There were multiple keynotes that addressed diversity and inclusion directly or indirectly.</p>
+
+						<p>Kim Crayton's entire keynote focused on D+I illusions, truths we don't want to face, and major barriers. Look it up. It's totally worth watching.</p>
+					</aside>
+				</section>
+				<section>
+					<h2>Open Source Sustainability</h2>
+					<h5>Panel including Maggie Pint + Erin McKean</h5>
+					<aside class="notes">
+						<p>There was a panel on open source sustainability. Maggie Pint commented that people often focus on how to direct money to open source developers and small open source projects, but that is not what these people and projects need. "We need accommodation from our employers to fold our open source projects into our day-to-day lives." I'm grateful to have that opportunity here.</p>
+
+						<p>And Erin McKean noted that "Having work accommodation [to work on open source] improves diversity [in open source] because it's not just privileged people who have the spare time to contribute." And in listing off the many benefits of having someone employed who works in open source there was this gem: "As we've seen with Equifax, just because you're using open source doesn't mean you are using open source well. Having employees who are involved in open source might help in those situations."</p>
+				</section>
+				<section>
+					<h2>Data Sciences Workshop</h2>
+					<aside class="notes">
+						Much to my surprise, the Data Sciences workshop was standing room only. Node.js has many strengths, but data science is not generally considered one of them. People tend to gravitate to Python or R instead. But there are people working to change that. And they're doing a great job.
+					</aside>
+				</section>
+				<section>
+					<h2>DatProject.org</h2>
+					<aside class="notes">
+						Related, by the way, is the Dat Project, which is a data sharing project written in Node.js. They're coordinating with UC, and I posted something to the UCSF Library Slack about it some time ago. They've visited Davis and Merced. Not sure what kind of traction they're getting but I'm definitely keeping an eye on it.
+					</aside>
+				</section>
+				<section>
+					<h2>hospitalrun.io</h2>
+					<aside class="notes">
+						<p>Another Node.js project of note that was the subject of a talk: HospitalRun is free, easy-to-us software for developing world healthcare. It does patient records, business records, etc. I took a *lot* of notes at this talk. I hope we can do a hack day in the CKM with it some time soon. It's aligned with the university's mission and the underlying technology looks a lot like us: Node.js of course, but also Ember.js (used by Ilios) and ElasticSearch (used by IDL). We have the domain expertise and we have the technological expertise. We should be able to contribute.</p>
+					</aside>
+				</section>
+				<section>
+					<h2>This space intentionally left blank.</h2>
+					<aside class="notes">There's a lot more to talk about, but this is supposed to be a brief summary. Ask me questions later and I will talk and talk and talk. I promise.</aside>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
